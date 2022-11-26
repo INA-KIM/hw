@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap");
+
+* {
+  font-family: "Noto Sans KR";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #fff;
+  box-sizing: border-box;
+}
+span,
+img {
+  vertical-align: middle;
+}
+p {
+  margin: 0;
+  line-height: 1;
+}
+.btn-purpleline {
+  width: 120px;
+  height: 50px;
+  border: 2px solid #7451c0;
+  background-color: #ffffff;
+  border-radius: 2px;
+  color: #000000;
+}
+.btn-purpleline span {
+  color: #000000;
+}
+.btn-purpleline img {
+  width: 18px;
+  height: 15.75px;
+  margin-left: 3px;
+}
+
+.btn-purple {
+  width: 120px;
+  height: 50px;
+  background: #7451c0;
+  border-radius: 3px;
+  border: none;
+  margin-top: 30px;
+  color: #ffffff;
+}
+.btn-purple img {
+  width: 18px;
+  height: 15.75px;
+  margin-left: 3px;
+}
+.btn-purple:hover {
+  background-color: #a67cff;
+  border-radius: 25px;
+}
+
+.btn-purple-long {
+  width: 255px;
+  height: 50px;
+  background: #7451c0;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+}
+.btn-purple-long img {
+  margin-left: 5px;
+}
+
+.btn-purple-row {
+  margin-top: 30px;
+}
+.btn-purple-row button {
+  background-color: #7451c0;
+  border: none;
+  width: 120px;
+  height: 50px;
+}
+.btn-purple-row button:hover {
+  background-color: #a67cff;
+}
+
+.btn-purple-column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btn-purple-column button {
+  margin-top: 2px;
+  background-color: #7451c0;
+  border: none;
+  width: 120px;
+  height: 50px;
+}
+.btn-purple-column button:hover {
+  background-color: #a67cff;
+}
+
+.box {
+  margin-top: 30px;
+  width: 500px;
+  height: 190px;
+  border: 0.5px solid #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  margin-top: -30px;
+  margin-right: 25px;
+  position: relative;
+}
+.inner i:nth-child(1) {
+  color: #000000;
+  font-size: 50px;
+}
+.inner i:last-child {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -31px;
+}
+.text p {
+  color: #000000;
+}
+.text p:nth-child(1) {
+  font-size: 0.75rem;
+  color: #666;
+}
+.text p:nth-child(2) {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 5px;
+}
+.text p:last-child {
+  font-size: 0.75rem;
+  color: #a67cff;
+  margin-top: 25px;
+}
+.text i {
+  font-size: 0.75rem;
+  color: #a67cff;
+  margin-left: 3px;
+}
+
+.box button {
+  margin-left: 30px;
+  width: 100px;
+  height: 80px;
+  background-color: #7451c0;
+  border-radius: 2px;
+  border: none;
+  font-size: 1rem;
+}
